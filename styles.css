@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@300;400;500;700&family=Outfit:wght@400;700&display=swap');
+
+:root {
+    --green: rgba(43, 179, 42, 1);
+    --black: rgba(26, 30, 28, 1);
+}
+
+html,body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: var(--black);
+    background-image: url("images/green_bg.png");
+    scroll-behavior: smooth;
+    font-family: "M PLUS 1";
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .links {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav .links a {
+    text-decoration: none;
+    color: white;
+
+}
+
+nav .links a:hover {
+    color: var(--green);
+}
+
+nav button {
+    border:2px solid;
+    border-radius: 30px;
+    border-color: var(--green);
+    color: var(--green);
+    background-color: var(--black);
+    height: 50px;
+    width: 100px;
+}
+
+.h-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h-content .text {
+    margin-left: 50px;
+    width: 600px;
+}
+
+.text h1 {
+    color: white;
+    font-size: 55px;
+}
+
+.text p {
+    margin-top: -15px;
+    color: rgba(173, 178, 177, 1);
+    width: 400px;
+}
+
+.text span {
+    background: -webkit-linear-gradient(#91db82, #194a23);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text button {
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--green);
+    color: white;
+
+}
+
+.h-content img {
+    height: 389px;
+    width: 550px;
+}
+
+.box1 {
+    margin-top: 80px;
+    margin-left: 50px;
+    width: 1150px;
+    height: 150px;
+    background: rgba(61, 84, 77, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(61, 84, 77, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.small-box h1 {
+    color: white;
+}
+
+.small-box p {
+    margin-top: -10px;
+    color: var(--green);
+}
+
+.companies{
+    margin-top: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.companies img{
+    animation: primary 3s linear infinite;
+}
+
+#section-2 h2{
+    margin-top: 120px;
+    color:white;
+    text-align: center;
+}
+.provides{
+    margin-top:80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.provides .box{
+    align-items: start;
+    justify-content: center;
+    display: flex;
+}
+.mini-box{
+    margin-top: 20px;
+    margin-right: 15px;;
+    height:50px;
+    width:50px;
+    background: rgba(61, 84, 77, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(61, 84, 77, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.provides .box .text{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    
+}
+.provides .box .text p{
+    width:210px;
+}
+.content-3{
+    margin-top: 100px;
+    display: flex;
+}
+.content-3 img{
+    width:434.15px;
+    height:389.82px;
+}
+.content-3 .text{
+    margin-left: 50px;
+}
+.content-4{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.content-4 .text{
+    width:560px;
+}
+
+.content-4 img {
+    margin-top: -40px;
+    margin-left: 20px;
+    height: 404.38px;
+    width: 438.36px;
+}
