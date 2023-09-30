@@ -6,10 +6,11 @@
 }
 
 html,body {
-    max-width: 100%;
     overflow-x: hidden;
-    background-color: var(--black);
-    background-image: url("images/green_bg.png");
+    background-color: #1A1E1C;
+    background-image: url('images/bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
     scroll-behavior: smooth;
     font-family: "M PLUS 1";
     margin: 0;
@@ -17,9 +18,13 @@ html,body {
 }
 
 nav {
-    margin: 2rem;
+    position: fixed;
+    background-color: rgba(94, 93, 93, 0.107);
+    padding: 1rem 0.5rem 1rem 0.5rem;
+    width: 100%;
+    z-index: 100;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -41,17 +46,23 @@ nav .links a:hover {
 }
 
 nav button {
+    all: unset;
     border:2px solid;
     border-radius: 30px;
     border-color: var(--green);
     color: var(--green);
-    background-color: var(--black);
-    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
     width: 100px;
 }
 
 .h-content {
+    position: relative;
     display: flex;
+    align-items: center;
+    top: 80px;
     justify-content: space-between;
 }
 
@@ -62,13 +73,13 @@ nav button {
 
 .text h1 {
     color: white;
-    font-size: 55px;
+    font-size: 4rem;
 }
 
 .text p {
     margin-top: -15px;
     color: rgba(173, 178, 177, 1);
-    width: 400px;
+    width: 40rem;
 }
 
 .text span {
@@ -91,11 +102,15 @@ nav button {
     height: 389px;
     width: 550px;
 }
+#section-1{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
 
 .box1 {
-    margin-top: 80px;
-    margin-left: 50px;
-    width: 1150px;
+    margin-top: 100px;
+    width: 80%;
     height: 150px;
     background: rgba(61, 84, 77, 0.52);
     border-radius: 16px;
@@ -120,13 +135,10 @@ nav button {
 
 .companies{
     margin-top: 80px;
+    width: 80%;
     display:flex;
     align-items: center;
-    justify-content: space-evenly;
-}
-
-.companies img{
-    animation: primary 3s linear infinite;
+    justify-content: space-around;
 }
 
 #section-2 h2{
@@ -174,6 +186,7 @@ nav button {
 .content-3{
     margin-top: 100px;
     display: flex;
+    justify-content: space-between;
 }
 .content-3 img{
     width:434.15px;
@@ -185,15 +198,69 @@ nav button {
 .content-4{
     margin-top: 150px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .content-4 .text{
-    width:560px;
+    margin-top: -50px;
+    margin-left: 45px;
 }
 
 .content-4 img {
-    margin-top: -40px;
+    margin-top: 0px;
     margin-left: 20px;
-    height: 404.38px;
-    width: 438.36px;
+    height: 384.38px;
+    width: 418.36px;
+}
+.testimonials{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.t{
+    height:250px;
+    width: 300px;
+    padding: 20px;
+    background: rgba(61, 84, 77, 0.52);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border: 1px solid rgba(61, 84, 77, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.t-content{
+    display: flex;
+}
+.t-content .profile{
+    height:40px;
+    width:40px;
+    border-radius: 100%;
+    background-image: url("images/p1.svg");
+    background-size: cover;
+}
+.t p{
+    color: white;
+}
+.icon-box{
+    background-color: rgba(172, 169, 169, 0.233);
+    height:30px;
+    width:30px;
+    padding: 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    margin-top: 40px;
+    background-color: rgba(94, 93, 93, 0.107);
+    color: rgb(137, 137, 137);
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
 }

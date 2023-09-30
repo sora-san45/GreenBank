@@ -8,18 +8,18 @@
     <title>GreenBank</title>
 </head>
 <body>
+    <nav>
+        <img src="images/green_logo.png">
+        <div class="links">
+            <a href="#">Why Us</a>
+            <a href="#section-2">Services</a>
+            <a href="#section-3">Our Process</a>
+            <a href="#section-4">Payments</a>
+            <a href="#">FAQs</a>
+        </div>
+        <button>Contact</button>
+    </nav>
     <header>
-        <nav>
-            <img src="images/green_logo.png">
-            <div class="links">
-                <a href="#">Why Us</a>
-                <a href="#">Services</a>
-                <a href="#">Our Process</a>
-                <a href="#">Payments</a>
-                <a href="#">FAQs</a>
-            </div>
-            <button>Contact</button>
-        </nav>
         <div class="h-content">
             <div class="text">
                 <h1>Discover the Perfect <span>Credit Card </span>for You</h1>
@@ -27,10 +27,10 @@
                 <button>Get Started</button>
             </div>
             
-            <img src="images/img-1.png">
+            <img src="images/image.svg">
         </div>
     </header>
-    <section>
+    <section id="section-1">
         <div class="box1">
             <div class="small-box">
                 <h1><span class="c" data-val="16">0</span><span>+</span></h1>
@@ -50,7 +50,7 @@
             </div>
             
         </div>
-        <div class="companies primary">
+        <div class="companies">
             <img src="images/upwork.png">
             <img src="images/petal.png">
             <img src="images/rakuten.png">
@@ -73,7 +73,7 @@
             <div class="box" data-aos="zoom-in">
                 <div class="mini-box"><img src="images/pie.png"></div>
                 <div class="text">
-                    <h4>Security Guarantee</h4>
+                    <h4>Investing</h4>
                     <p>Your data and funds will be securely protected.</p>
                 </div>
             </div>
@@ -94,25 +94,98 @@
                 <button>Create new card</button>
             </div>
             
-            <img src="images/img-2.png">
+            <img src="images/image-1.svg">
         </div>
     </section>
     <section id="section-4">
         <div class="content-4">
-            <img src="images/img-3.png">
+            <img src="images/image-2.svg">
             <div class="text" >
                 <h1>Find the Perfect Credit Card for You</h1>
                 <p>Discover your ideal credit card with ease. Our comprehensive selection caters to every financial need and lifestyle. Whether you seek cashback rewards, travel perks, or building credit, we have the perfect credit card waiting for you. Unleash the possibilities and find the credit card that fits your unique goals and aspirations.</p>
                 <button>Learn More</button>
+            </div>      
+        </div>
+        <div class="testimonials">
+            <div class="t" data-aos="fade-right">
+                <div class="icon-box">
+                    <img src="images/quote.svg">
+                </div>
+                <p>"Great session! Dani was super helpful. She shared some practical advice on how can lorem ip we go about refining our service offerings."</p>
+                <div class="t-content">
+                    <div class="profile"></div>
+                    <div class="text">
+                        <p style="font-weight: 500;">Hadid Khan</p>
+                        <p style="font-size: smaller; font-weight: lighter;">UI/UX Designer</p>
+                    </div>
+                </div>
             </div>
-                       
+            <div class="t" data-aos="zoom-in">
+                <div class="icon-box">
+                    <img src="images/quote.svg">
+                </div>
+                <p>"It's is both attractive and highly adaptable. It's exactly what I've been looking forefinitely wo lorem ipsum dolorth the investment."</p>
+                <div class="t-content">
+                    <div class="profile"></div>
+                    <div class="text">
+                        <p style="font-weight: 500;">Wade Warren</p>
+                        <p style="font-size: smaller;font-weight: lighter;">Administrator</p>
+                    </div>
+                </div>
+            </div>
+            <div class="t" data-aos="fade-left">
+                <div class="icon-box">
+                    <img src="images/quote.svg">
+                </div>
+                <p>"I am really satisfied with it. I'm good to go. It really saves me time and effort. It's is exactly what our business has been lacking. "</p>
+                <div class="t-content">
+                    <div class="profile"></div>
+                    <div class="text">
+                        <p style="font-weight: 500;">Jenny Wilson</p>
+                        <p style="font-size: smaller; font-weight: lighter;">Web Designer</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+    <footer>
+        <div class="col">
+            <img src="images/green_logo.png">
+            <p>Discover the power of our secure and rewarding credit cards</p>
+        </div>
+        <div class="col">
+            <p style="font-weight: bolder; color: white;">About us</p>
+            <p>Investors</p>
+            <p>Features</p>
+            <p>Book a demo</p>
+            <p>Security</p>
+        </div>
+        <div class="col">
+            <p style="font-weight: bolder; color: white;">Products</p>
+            <p>Credit cards</p>
+            <p>Gift cards</p>
+            <p>Savings account</p>
+            <p>NFT</p>
+        </div>
+        <div class="col">
+            <p style="font-weight: bolder; color: white;">Useful Links</p>
+            <p>Free rewards</p>
+            <p>Documentation</p>
+            <p>Affiliate program</p>
+        </div>
+        <div class="col">
+            <p style="font-weight: bolder; color: white;">Social</p>
+            <p>Changelog</p>
+            <p>License</p>
+            <p>Site Maps</p>
+            <p>News</p>
+        </div>
+    </footer>
     <script src="index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script> 
         AOS.init({
-            duration:300,
+            duration:500,
         });
     </script>
 </body>
